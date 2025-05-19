@@ -1,0 +1,47 @@
+body {
+  font-family: "Georgia", serif;
+  background: #fdf6e3;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+header,
+footer {
+  background-color: #002b36;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #586e75;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-theme {
+  background: #073642;
+  color: #fdf6e3;
+}
